@@ -23,7 +23,6 @@ public class StudentService {
         return null;
 
     }
-
     public List<Student> getDetails() {
         Iterable<Student> students = getStudentRepository.findAll();
         return (List<Student>) students;
