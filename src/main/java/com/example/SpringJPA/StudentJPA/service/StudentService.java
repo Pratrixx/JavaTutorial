@@ -24,7 +24,7 @@ public class StudentService {
 
     }
 
-    public List<Student> getDetails() {
+    public List<Student> getDetails(Integer abcer) {
         Iterable<Student> students = getStudentRepository.findAll();
         return (List<Student>) students;
     }
