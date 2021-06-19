@@ -24,9 +24,7 @@ public class StudentService {
 
     }
 
-    public List<Student> getDetails(String abc) {
-        String variable= "Abc";
-        //tod avirag had chnages
+    public List<Student> getDetails() {
         Iterable<Student> students = getStudentRepository.findAll();
         return (List<Student>) students;
     }
