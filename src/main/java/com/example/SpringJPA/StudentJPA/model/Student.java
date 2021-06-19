@@ -14,6 +14,7 @@ import java.util.List;
 @Entity
 @Table
 public class Student {
+    //TODO avirag
     @Column
     private String studentName;
     @Id
